@@ -296,7 +296,7 @@ setInterval(function(){
 
 // ================================================
 // START LISTENING ON THE PORT
-server.listen(3000, function () {
+server.listen(8080, function () {
     var host = server.address().address;
     var port = server.address().port;
 
